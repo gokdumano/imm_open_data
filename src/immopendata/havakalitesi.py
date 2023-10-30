@@ -1,10 +1,7 @@
-from collections import namedtuple
+from dtypes import Station, Concentration, AQI
+
 from datetime import datetime
 import requests, re
-
-Station         = namedtuple('Station', 'Id Name Address Latitude Longitude')
-Concentration   = namedtuple('Concentration', 'ReadTime PM10 SO2 O3 NO2 CO')
-AQI             = namedtuple('AQI', 'ReadTime PM10 SO2 O3 NO2 CO AQIIndex ContaminantParameter State Color')
 
 def GetAQIStations() -> list[Station]:
     '''Bu web servis ile Hava Kalitesi istasyonlarının bilgileri paylaşılmıştır
