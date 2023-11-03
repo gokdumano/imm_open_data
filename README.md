@@ -1,16 +1,15 @@
-# Example Package
+# immopendata
 
-This is a simple example package. You can use
-[Github-flavored Markdown](https://guides.github.com/features/mastering-markdown/)
-to write your content.
+A small package to use data provided by `Istanbul Metropolitan Municipality(IMM) Open Data Portal`
 
-Here is a simple flow chart:
+```pycon
+python -m pip install immopendata
+```
 
 ```mermaid
 mindmap
   root(immopendata)
-    havakalitesi.py
-    
+    havakalitesi.py    
         GetAQIStations
         GetAQIByStationId
     iett.py
