@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "immopendata"
-version = "0.0.3"
+version = "0.0.5"
 authors = [
   { name="Deniz Gökduman", email="deniz.gokduman@hotmail.com" },
 ]
@@ -15,6 +15,10 @@ classifiers = [
     "Programming Language :: Python :: 3",
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
+]
+dependencies = [
+    "requests",
+    "Django==3.2.8",
 ]
 
 [project.urls]
