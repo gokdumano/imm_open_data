@@ -18,7 +18,7 @@ classifiers = [
 ]
 dependencies = [
     "requests",
-    "Django==3.2.8",
+    "xml"
 ]
 
 [project.urls]
