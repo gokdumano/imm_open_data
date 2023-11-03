@@ -23,7 +23,4 @@ dependencies = [
 
 [project.urls]
 "Homepage" = "https://github.com/gokdumano/immopendata"
-"Bug Tracker" = "https://github.com/gokdumano/immopendata"
-"havakalitesi API Page" = "https://data.ibb.gov.tr/dataset/hava-kalitesi-istasyon-olcum-sonuclari-web-servisi"
-"ispark API Page" = "https://www.data.istanbul/dataset/ispark-otopark-detay-bilgileri-web-servisi"
-"istac API Page" = "https://www.data.istanbul/dataset/aylara-gore-aktarma-istasyonlarinda-toplanan-karisik-belediye-atik-miktari-web-servisi"
+"Bug Tracker" = "https://github.com/gokdumano/immopendata/issues"
